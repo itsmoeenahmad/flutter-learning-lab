@@ -1,0 +1,30 @@
+# Project information shown by Flutter and pub.
+name: flutterlearning
+description: Weekly Flutter examples for the CS-314 Mobile App Development Lab.
+# This classroom project is not published to pub.dev.
+publish_to: 'none'
+version: 1.0.0+1
+
+# Dart SDK version required to run this project.
+environment:
+  sdk: ^3.13.2
+
+# Packages used while the app runs.
+dependencies:
+  flutter:
+    sdk: flutter
+  # Stores sensitive values in the device's protected storage area.
+  flutter_secure_storage: ^11.2.0
+
+# Packages used only while developing and testing the project.
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  # Includes the Material icons used by the examples.
+  uses-material-design: true
+  # Classroom diagrams used during Flutter lessons.
+  assets:
+    - assets/images/
