@@ -38,7 +38,7 @@ class CourseCatalogPage extends StatelessWidget {
             padding: const EdgeInsets.all(16),
             itemCount: courses.length,
             gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-              crossAxisCount: 2,
+              crossAxisCount: 3,
               childAspectRatio: 2.4,
             ),
             itemBuilder: (context, index) => _CourseCard(courses[index]),
@@ -190,7 +190,8 @@ class _RegistrationPageState extends State<RegistrationPage> {
         content: Text('Register for ${widget.course.code}?'),
         actions: [
           TextButton(
-            onPressed: () => Navigator.pop(context, false),
+            onPressed: () =>
+                Navigator.pop(context, false), // Navigator.pop(context);
             child: const Text('Cancel'),
           ),
           FilledButton(

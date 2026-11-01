@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 
+// Another imported file in this project that contains the secure storage logic.
 import 'secure_storage_service.dart';
 
+/// Packages and Versioning
 /// Week 07: a small example of saving one value securely on the device.
 class StudentSettingsPage extends StatefulWidget {
   const StudentSettingsPage({super.key});

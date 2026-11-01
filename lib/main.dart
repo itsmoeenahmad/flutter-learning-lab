@@ -5,6 +5,14 @@ import 'week_04/counter_app.dart';
 import 'week_05/profile_dashboard.dart';
 import 'week_06/course_catalog.dart';
 import 'week_07/student_settings.dart';
+import 'week_08/state_basics_page.dart';
+import 'week_09/post_browser_page.dart';
+import 'week_10/firebase_basics_page.dart';
+import 'week_11/auth_profile_demo_page.dart';
+import 'week_12/study_planner_page.dart';
+import 'week_13/project_quality_page.dart';
+import 'week_14/release_checklist_page.dart';
+import 'week_15/viva_readiness_page.dart';
 
 // main.dart only starts the app and opens the weekly examples.
 void main() {
@@ -59,6 +67,54 @@ class LearningHomePage extends StatelessWidget {
         'Packages and local storage',
         Icons.settings_outlined,
         StudentSettingsPage(),
+      ),
+      _Lesson(
+        'Week 08',
+        'setState and Provider basics',
+        Icons.sync_outlined,
+        StateBasicsPage(),
+      ),
+      _Lesson(
+        'Week 09',
+        'REST API, networking, and JSON',
+        Icons.public_outlined,
+        PostBrowserPage(),
+      ),
+      _Lesson(
+        'Week 10',
+        'Firebase basics and safe cloud reads',
+        Icons.cloud_outlined,
+        FirebaseBasicsPage(),
+      ),
+      _Lesson(
+        'Week 11',
+        'Authentication and cloud profiles',
+        Icons.lock_outline,
+        AuthProfileDemoPage(),
+      ),
+      _Lesson(
+        'Week 12',
+        'Project core feature template',
+        Icons.assignment_outlined,
+        StudyPlannerPage(),
+      ),
+      _Lesson(
+        'Week 13',
+        'Project validation and testing',
+        Icons.fact_check_outlined,
+        ProjectQualityPage(),
+      ),
+      _Lesson(
+        'Week 14',
+        'Project polish and release checks',
+        Icons.verified_outlined,
+        ReleaseChecklistPage(),
+      ),
+      _Lesson(
+        'Week 15',
+        'Final demo and viva readiness',
+        Icons.school_outlined,
+        VivaReadinessPage(),
       ),
     ];
 

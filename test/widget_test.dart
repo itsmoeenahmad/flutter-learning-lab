@@ -8,5 +8,11 @@ void main() {
     expect(find.text('Flutter Learning Lab'), findsOneWidget);
     expect(find.text('Week 04'), findsOneWidget);
     expect(find.text('Week 07'), findsOneWidget);
+
+    await tester.scrollUntilVisible(
+      find.text('Week 15'),
+      200,
+    );
+    expect(find.text('Week 15'), findsOneWidget);
   });
 }

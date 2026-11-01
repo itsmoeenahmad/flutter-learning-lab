@@ -1,4 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Required for the Week 09 HTTP example and any future API calls. -->
+    <uses-permission android:name="android.permission.INTERNET" />
     <application
         android:label="flutterlearning"
         android:name="${applicationName}"

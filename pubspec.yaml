@@ -15,6 +15,10 @@ dependencies:
     sdk: flutter
   # Stores sensitive values in the device's protected storage area.
   flutter_secure_storage: ^11.2.0
+  # Reads HTTP APIs and decodes their JSON responses in Week 09.
+  http: ^1.6.0
+  # Demonstrates simple shared state in Week 08.
+  provider: ^6.1.5+1
 
 # Packages used only while developing and testing the project.
 dev_dependencies:

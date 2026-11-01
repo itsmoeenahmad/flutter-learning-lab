@@ -1,5 +1,5 @@
-import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 
 /// Keeps the package code separate from the screen widget.
 class SecureStorageService {
@@ -14,6 +14,7 @@ class SecureStorageService {
   }
 
   Future<void> saveNote(String note) async {
+    // class e 5th semester.
     debugPrint('Writing note to secure storage.');
     await _storage.write(key: _noteKey, value: note);
   }
